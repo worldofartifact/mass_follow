@@ -1,6 +1,5 @@
 require 'sinatra'
 
-
 get '/' do
 	@title = 'Mass Twitter Follower'
 	erb :index
